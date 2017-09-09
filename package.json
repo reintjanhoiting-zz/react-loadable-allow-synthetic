@@ -1,0 +1,42 @@
+{
+  "name": "frontend_pwa",
+  "version": "0.0.1",
+  "private": true,
+  "devDependencies": {
+    "autoprefixer": "7.1.3",
+    "awesome-typescript-loader": "3.2.3",
+    "cross-env": "5.0.5",
+    "css-loader": "0.28.7",
+    "cssnano": "3.10.0",
+    "html-webpack-plugin": "2.30.1",
+    "node-sass": "4.5.3",
+    "postcss-loader": "2.0.6",
+    "sass-loader": "6.0.6",
+    "style-loader": "0.18.2",
+    "sw-precache-webpack-plugin": "^0.11.4",
+    "typescript": "2.5.2",
+    "uglifyjs-webpack-plugin": "0.4.6",
+    "webpack": "3.5.5",
+    "webpack-dev-server": "2.7.1",
+    "webpack-pwa-manifest": "^3.2.0"
+  },
+  "dependencies": {
+    "@types/node": "^8.0.26",
+    "@types/react": "^16.0.5",
+    "@types/react-dom": "^15.5.4",
+    "@types/react-loadable": "^4.0.4",
+    "@types/react-redux": "^5.0.6",
+    "@types/react-router-dom": "^4.0.7",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-loadable": "^4.0.4",
+    "react-redux": "^5.0.2",
+    "react-router-dom": "^4.2.2",
+    "redux": "^3.6.0",
+    "ts-loader": "^2.3.4"
+  },
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "cross-env NODE_ENV=production webpack"
+  }
+}
